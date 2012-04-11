@@ -1,6 +1,7 @@
 http://stackoverflow.com/questions/6012073/how-do-i-code-against-one-github-repo-on-2-computers
 
-To keep both repositories in sync you want to pull the latest changes to your machine before you start working on the code.
+To keep both repositories in sync you want to pull the latest changes to your machine before you start working on 
+the code.
 
 To do this you want to execute
 
@@ -9,7 +10,9 @@ Or you can execute the longer version of the same request using:
 
 git fetch
 git merge origin/{branch_name}
-Note: this is the same process that you would use if two or more people were working on the same repo. Which is essentially what is happening, instead of two different people working on the same repository, you have two different machines working on the same repository.
+Note: this is the same process that you would use if two or more people were working on the same repo.
+Which is essentially what is happening, instead of two different people working on the same repository, 
+you have two different machines working on the same repository.
 
 Just remember if you are starting out fresh on a new machine to run through all the basics for initializing git.
 
